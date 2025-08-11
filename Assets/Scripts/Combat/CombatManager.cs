@@ -771,18 +771,6 @@ public class CombatManager : MonoBehaviour {
         if (starText != null)
             starText.SetActive(false);
 
-
-        /*
-        Old null checks..
-        if (items == null || items.items == null || itemOptions == null || GameManager.GetInstance() == null) {
-            if (itemOptions != null) {
-                foreach (var option in itemOptions)
-                    option.gameObject.SetActive(false);
-            }
-            return;
-        }
-        */
-
         UpdateItemOptions();
     }
 

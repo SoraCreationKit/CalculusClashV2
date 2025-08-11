@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour {
     public const bool KDevelopmentBuild = false;
     public const int KRoomAmount = 10;
 
+    public bool isSafe = true;
     public bool wentPrevious = false;
     public bool isBattleHandled = true;
     public bool isDialoguePlaying = false;

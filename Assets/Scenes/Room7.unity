@@ -5664,7 +5664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6ce3e3ee888f3748b132e6d27e0835f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueFileName: room3_end
+  dialogueFileName: room7_end
   region:
     x1: -10
     x2: 10
