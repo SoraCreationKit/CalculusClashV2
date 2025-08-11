@@ -8,8 +8,8 @@ public class GameManager : MonoBehaviour {
 
     private AudioSource musicSource;
 
-    public const string KVersion = "1.5.0";
-    public const string KBuildDate = "05-30-2025";
+    public const string KVersion = "1.8.0";
+    public const string KBuildDate = "08-10-2025";
     public const bool KDevelopmentBuild = false;
     public const int KRoomAmount = 10;
 

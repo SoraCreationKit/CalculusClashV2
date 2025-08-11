@@ -1,0 +1,9 @@
+# Mark Shader files as vendored to exclude from language statistics
+*.shader linguist-vendored
+*.shadergraph linguist-vendored
+*.shadersubgraph linguist-vendored
+*.compute linguist-vendored
+
+# Handle Unity meta files - keep them in repo but don't count in language stats
+*.meta linguist-generated
+*.unity linguist-generated
