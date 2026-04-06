@@ -30,31 +30,31 @@ EditorBuildSettings:
     path: Assets/Scenes/Room1.unity
     guid: 70b902d0c4676ab42975af305402b7bc
   - enabled: 1
-    path: Assets/Scenes/Room2.unity
+    path: Assets/Scenes/TestRoom.unity
     guid: 8712098e1827d224e98249a997e8e962
   - enabled: 1
-    path: Assets/Scenes/Room3.unity
+    path: Assets/Scenes/Room2.unity
     guid: e96207a5107ffbf42b3c4ada3897fff3
   - enabled: 1
     path: Assets/Scenes/Room4.unity
     guid: eb6357940f9406c4eb5a3cf97248c591
   - enabled: 1
-    path: Assets/Scenes/Room5.unity
+    path: Assets/Scenes/Room3.unity
     guid: 4d98277a0e50d1f419373f8bc4670357
   - enabled: 1
     path: Assets/Scenes/Room6.unity
     guid: 625fd1a8ea95e5849b0e1e06eeb142c8
   - enabled: 1
-    path: Assets/Scenes/Room7.unity
+    path: Assets/Scenes/Room5.unity
     guid: 8d369e82901d3574cbe55a57af1b55da
   - enabled: 1
     path: Assets/Scenes/Room8.unity
     guid: e900cadce4ef3a645b3ae795b939ec4e
   - enabled: 1
-    path: Assets/Scenes/Room9.unity
+    path: Assets/Scenes/Room7.unity
     guid: 1a3b985b9ed506c4c9a60a554b9e3e60
   - enabled: 1
-    path: Assets/Scenes/Room10.unity
+    path: Assets/Scenes/SecretRoom.unity
     guid: a6118afbc7a69be4e9d567023fd471e6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
