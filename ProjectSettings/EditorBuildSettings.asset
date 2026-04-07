@@ -6,55 +6,55 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
+    path: Assets/_Scenes/Menu.unity
     guid: 6ba7cb169dcef9544a2e52f56da8a026
   - enabled: 1
-    path: Assets/Scenes/InitialStory.unity
+    path: Assets/_Scenes/InitialStory.unity
     guid: be31c229a32650047b18ad67ac671bcb
   - enabled: 1
-    path: Assets/Scenes/Credits.unity
+    path: Assets/_Scenes/Credits.unity
     guid: a1e092b8e5748b648bc1b3cf062f8edc
   - enabled: 1
-    path: Assets/Scenes/PostCredits.unity
+    path: Assets/_Scenes/PostCredits.unity
     guid: 3a8377f9b8454ac448b957bf7bd1a30a
   - enabled: 1
-    path: Assets/Scenes/BeatGame.unity
+    path: Assets/_Scenes/BeatGame.unity
     guid: df2804cc56f7e354493c63c82bd93482
   - enabled: 1
-    path: Assets/Scenes/FailedGame.unity
+    path: Assets/_Scenes/FailedGame.unity
     guid: 245ce80d71de2ae48ac959ee141613d0
   - enabled: 1
-    path: Assets/Scenes/Fight.unity
+    path: Assets/_Scenes/Fight.unity
     guid: 97e67c4246459d84193da0ba1ec68f5d
   - enabled: 1
-    path: Assets/Scenes/Room1.unity
+    path: Assets/_Scenes/Room1.unity
     guid: 70b902d0c4676ab42975af305402b7bc
   - enabled: 1
-    path: Assets/Scenes/Room2.unity
+    path: Assets/_Scenes/Room2.unity
     guid: 8712098e1827d224e98249a997e8e962
   - enabled: 1
-    path: Assets/Scenes/Room3.unity
+    path: Assets/_Scenes/Room3.unity
     guid: e96207a5107ffbf42b3c4ada3897fff3
   - enabled: 1
     path: Assets/Scenes/Room4.unity
     guid: eb6357940f9406c4eb5a3cf97248c591
   - enabled: 1
-    path: Assets/Scenes/Room5.unity
+    path: Assets/_Scenes/Room5.unity
     guid: 4d98277a0e50d1f419373f8bc4670357
   - enabled: 1
     path: Assets/Scenes/Room6.unity
     guid: 625fd1a8ea95e5849b0e1e06eeb142c8
   - enabled: 1
-    path: Assets/Scenes/Room7.unity
+    path: Assets/_Scenes/Room7.unity
     guid: 8d369e82901d3574cbe55a57af1b55da
   - enabled: 1
     path: Assets/Scenes/Room8.unity
     guid: e900cadce4ef3a645b3ae795b939ec4e
   - enabled: 1
-    path: Assets/Scenes/Room9.unity
+    path: Assets/_Scenes/Room9.unity
     guid: 1a3b985b9ed506c4c9a60a554b9e3e60
   - enabled: 1
-    path: Assets/Scenes/SecretRoom.unity
+    path: Assets/_Scenes/SecretRoom.unity
     guid: a6118afbc7a69be4e9d567023fd471e6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
