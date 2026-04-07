@@ -15,7 +15,7 @@ public class Encounter : MonoBehaviour {
     public string currentRoom;
     public float encounterPercentagePerSecond;
 
-    private float timer;
+    private float _timer;
 
     private void Start() {
         var seed = DateTime.Now.Ticks.GetHashCode();
@@ -36,11 +36,11 @@ public class Encounter : MonoBehaviour {
             || GameManager.instance.isDialoguePlaying || GameManager.instance.isBattlePlaying)
             return;
 
-        timer += Time.deltaTime;
+        _timer += Time.deltaTime;
 
-        if (timer < 1f) return;
+        if (_timer < 1f) return;
 
-        timer = 0f;
+        _timer = 0f;
 
         var roll = Random.Range(1, 101);
         if (roll == 1) {
@@ -88,6 +88,7 @@ public class Encounter : MonoBehaviour {
 
         if (transitionPanel != null) {
             var panelImage = transitionPanel.GetComponent<Image>();
+
             if (panelImage != null) {
                 transitionPanel.SetActive(true);
 
@@ -102,6 +103,7 @@ public class Encounter : MonoBehaviour {
                     elapsed += Time.deltaTime;
                     color.a = Mathf.Clamp01(elapsed / duration);
                     panelImage.color = color;
+
                     yield return null;
                 }
 
