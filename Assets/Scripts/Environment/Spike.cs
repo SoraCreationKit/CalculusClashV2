@@ -4,7 +4,7 @@ public class Spike : MonoBehaviour {
     [SerializeField] private GameObject player;
     [SerializeField] private Transform respawnPoint;
 
-    private PlayerController _playerController;
+    private PlayerCtrl _PlayerCtrl;
     private Rigidbody2D _playerRigidBody;
 
     private Collider2D _spikeCollider;
@@ -24,13 +24,13 @@ public class Spike : MonoBehaviour {
         _spikeCollider = GetComponent<Collider2D>();
 
         if (player == null) {
-            _playerController = FindFirstObjectByType<PlayerController>();
+            _PlayerCtrl = FindFirstObjectByType<PlayerCtrl>();
 
-            if (_playerController != null) {
-                player = _playerController.gameObject;
+            if (_PlayerCtrl != null) {
+                player = _PlayerCtrl.gameObject;
             }
         } else {
-            _playerController = player.GetComponent<PlayerController>();
+            _PlayerCtrl = player.GetComponent<PlayerCtrl>();
         }
 
         if (player == null) {
@@ -80,11 +80,11 @@ public class Spike : MonoBehaviour {
     }
 
     private void TryTeleportPlayer(GameObject target) {
-        if (!IsSpikeDangerous() || _hasTeleportedThisWindow || _playerController == null) {
+        if (!IsSpikeDangerous() || _hasTeleportedThisWindow || _PlayerCtrl == null) {
             return;
         }
 
-        if (target.GetComponentInParent<PlayerController>() != _playerController) {
+        if (target.GetComponentInParent<PlayerCtrl>() != _PlayerCtrl) {
             return;
         }
 

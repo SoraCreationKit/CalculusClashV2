@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
 
-public class PlayerController : MonoBehaviour
+public class PlayerCtrl : MonoBehaviour
 {
     public Animator anim;
     public float moveSpeed;
